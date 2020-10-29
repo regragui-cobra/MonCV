@@ -1,0 +1,11 @@
+@media only screen and (max-width: 740px) {
+    #pic {float: none;}
+}
+
+@media only screen and (max-width: 570px) {
+    #pic {float: none;}
+}
+
+@media only screen and (max-width: 480px) {
+    #pic {float: none;}
+}
