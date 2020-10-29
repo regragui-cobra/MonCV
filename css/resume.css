@@ -29,3 +29,68 @@ dd.clear { float: none; margin: 0; height: 15px; }
     font-weight: 1400;
     font-style: normal;
 }
+
+#skill1:hover .skilltooltip1 {
+    display: block;
+}
+
+.skilltooltip1 {
+    display: none;
+    background: #C8C8C8;
+    margin-left: 28px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    width:200px;
+    height:100px;
+}
+
+#skill2:hover .skilltooltip2 {
+    display: block;
+}
+
+.skilltooltip2 {
+    display: none;
+    background: #C8C8C8;
+    margin-left: 28px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    width:200px;
+    height:100px;
+}
+.stars-inner {
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+}
+
+.stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+}
